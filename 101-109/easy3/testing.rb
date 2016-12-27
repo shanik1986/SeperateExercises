@@ -1,6 +1,8 @@
-def oddities(arr)
-  oddities_array = []
-  for i in arr do
-    o
-  end
+def palindrome?(str)
+  str.reverse == str
 end
+
+puts palindrome?('madam') == true
+puts palindrome?('Madam') == false          # (case matters)
+puts palindrome?("madam i'm adam") == false # (all characters matter)
+puts palindrome?('356653') == true
