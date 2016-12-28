@@ -1,8 +1,8 @@
-def palindrome?(str)
-  str.reverse == str
+def palindromic_number?(num)
+  num.to_s.reverse == num.to_s
 end
 
-puts palindrome?('madam') == true
-puts palindrome?('Madam') == false          # (case matters)
-puts palindrome?("madam i'm adam") == false # (all characters matter)
-puts palindrome?('356653') == true
+puts palindromic_number?(34543) == true
+puts palindromic_number?(123210) == false
+puts palindromic_number?(22) == true
+puts palindromic_number?(5) == true
