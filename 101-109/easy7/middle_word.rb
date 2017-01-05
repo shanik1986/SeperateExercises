@@ -5,4 +5,4 @@ def penultimate(sentence)
 end
 
 p penultimate('last thing ever') == 'thing'
-# p penultimate('Launch School is great!') == 'is'
+p penultimate('Launch School is great!') == 'is'
