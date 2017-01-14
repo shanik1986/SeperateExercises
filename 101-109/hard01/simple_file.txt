@@ -1,0 +1,2 @@
+Well, here's another example. Will the previous line still be here?
+This time the line before will stay! I know it!Another line, this time using the File##write method
