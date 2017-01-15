@@ -9,7 +9,6 @@ def merge_sorted_lists(arr1, arr2)
     end
     result << item
   end
-
   result + arr2[arr2_index..-1]
 end
 
